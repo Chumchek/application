@@ -2,8 +2,8 @@ name: vprofile actions
 on: workflow_dispatch
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: vprofileapp1927
-  EKS_CLUSTER: vprofile-eks-1927
+  ECR_REPOSITORY: application-container-registry
+  EKS_CLUSTER: terraform-diploma-1927
 
 jobs:
   Testing:
